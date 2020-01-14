@@ -1,9 +1,6 @@
 /*BootStrap*/
-@font-face{
-	font-family:'fontello';
-	src:url("./assets/font-icons/css/fontello.css");
-	font-display:swap
-}
+@import "./assets/font-icons/css/fontello.css";
+
 @font-face{
 	font-family:'Ultra';
 	src:url(./assets/fonts/Ultra.ttf);
