@@ -1,0 +1,275 @@
+/*BootStrap*/
+@font-face{
+	font-family:'fontello';
+	src:url("./assets/font-icons/css/fontello.css");
+	font-display:swap
+}
+@font-face{
+	font-family:'Ultra';
+	src:url(./assets/fonts/Ultra.ttf);
+	font-display:swap
+}
+*, ::after, ::before{
+	transition:1s!important
+}
+html{
+	scroll-behavior:smooth
+}
+body{
+  line-height:1.7
+}
+body, button, select, textarea, label {
+    font-family: Montserrat!important;
+	font-display:swap;
+    font-weight: 300!important;
+    margin: 0!important;
+}
+section{
+  background-color: #fdfaed;
+}
+input, textarea {
+   line-height:normal!important;
+   transition: 0s!important;
+}
+label{
+    display:block!important
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    line-height: 1.7!important;
+    margin: 40px 0 20px!important;
+}
+a {
+    cursor: pointer;
+}
+header {
+    background-image: url(./assets/img/default_header.webp);
+    background-position:top;
+    height: 600px;
+    background-size: cover;
+    top: 0;
+}
+.logo{
+    border: 5px solid #5b4429;
+    background-color: rgba(0, 0, 0, .25);
+    font-family: Ultra;
+    line-height: 1!important;
+    color: #f5efd9;
+    text-shadow: 0 0 17px #00000099;
+}
+.biggerLogo {
+    z-index: 999;
+    max-width: 360px;
+}
+.main-container{
+    margin-top: 580px;
+}
+#menuIcon{
+    margin: 5px 15px;
+    cursor: pointer;
+    font-size: 38px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .51);
+    left: auto;
+    z-index: 1031;
+}
+#sideMenu {
+    width: 240px;
+    background-color: #5ab052eb!important;
+    height: 100vh;
+    left: unset;
+}
+.smallerLogo {
+    border-width: 5px 0;
+    font-size: 28px;
+}
+.menu{
+    width: 160px;
+}
+.nav-link, .nav-link:hover{
+    color: #fff;
+    font-weight: 700;
+    line-height: 2;
+}
+.pb-70 {
+    padding-bottom: 70px!important;
+}
+.section-style1{
+    background: #5b4429;
+    color: #fff;
+}
+.section-title {
+    font-family: "Ultra";
+    color: #5ab052!important;
+    letter-spacing: 2px;
+    line-height: 1.7!important;
+}
+.text-shadow-dark {
+    text-shadow: 0 0 5px rgba(0, 0, 0, .52)
+}
+.text-shadow-light {
+    text-shadow: 0 0 5px rgba(255, 255, 255, .75);
+}
+.mw-1900{
+    max-width:1920px!important
+}
+.mw-1300{
+    max-width: 1300px!important;
+}
+.mw-900{
+    max-width:900px
+}
+.mw-600 {
+    max-width: 600px;
+}
+.arrows {
+    position: absolute;
+    border: 23px solid transparent;
+    border-top: 16px solid #5b4429;
+    left: 49%;
+}
+.arrows-down {
+    top: 0;
+}
+.arrows-right {
+    transform:rotate(-90deg);
+    left: -4px;
+    top: 6%
+}
+.arrows-left{
+    transform:rotate(90deg);
+    right: -4px;
+    top: 35%;
+    left:unset;
+}
+.ragged_elements {
+    bottom: -14px;
+    z-index: 99;
+    height: 16px;
+    background-position: center;
+    background-repeat: repeat;
+}
+.flip-h{
+    transform:scaleX(-1);
+}
+.flip-hv{
+  transform:scale(-1)!important;
+}
+.beige-elements{
+    background-image: url(./assets/img/ragged_element-bottom-beige.webp);
+}
+.brown-elements{
+    background-image: url(./assets/img/ragged_element-bottom-brown.png);
+}
+.ragged_elements-top{
+    transform: scaleY(-1);
+    top: -14px;
+    bottom:0;
+}
+.jak-dzialamy-one{
+    min-width: 260px!important;
+    max-width: 275px!important;
+}
+.jak-dzialamy-img {
+    max-height: 120px;
+    max-width: 140px;
+    margin-bottom: -10px
+}
+.jak-dzialamy-arrow {
+    font-size: 50px;
+    top: 70px;
+    left: -11%;
+}
+.transport-description{
+  max-width:230px!important;
+}
+.drewno-oneKind {
+    min-width: 213px!important;
+    max-width: 213px!important;
+    height: 213px;
+    color: #fdfaed;
+    text-shadow: 0 0px 7px rgba(0, 0, 0, 0.85);
+    background-color: rgba(99,69,56,.05);
+    background-image: url(./assets/img/borders/ragged_element-border213_3.webp);
+    transform: rotate(-10deg);
+    transition: 2s;
+}
+.drewno-oneKind-title {
+    bottom: 70px;
+    left: -12px;
+    transform: rotate(10deg);
+}
+.drewno-oneKind:hover > h4 {
+  bottom: -56px;
+  left: 34px;
+  transform: rotate(-2deg);
+  font-weight: 100;
+  transition: 1.5s!important;
+}
+.drewno-oneKind:hover>.drewno-img {
+  transform: rotateZ(-2deg) translate(0, 0px);
+  height: 315px;
+  box-shadow: 10px 9px 7px rgba(99, 69, 56, 0.2);
+  box-shadow: 10px 11px 7px rgba(99, 69, 56, 0.2);
+}
+.drewno-img {
+    transform: rotate(100deg);
+    width: 170px;
+    height: 170px;
+    box-shadow: 15px -15px 7px rgba(99,69,56,.2);
+    object-fit: cover;
+}
+.spod-naszych-rak-li:before{
+    content:url(./assets/img/list_image_25x20_white.png);
+}
+.green-link{
+    color: #5ab052!important;
+}
+.masz-pytania{
+    background-image: url(./assets/img/bushcraft-dry-knife-227577-mini-opacity.webp);
+    background-size: cover;
+}
+footer {
+    bottom:0;
+    font-size: .9rem;
+    color: rgba(115, 77, 60, .3);
+    background: rgba(0, 0, 0, .03);
+    border-top: 1px solid rgba(115, 77, 60, .3);
+}
+
+@media only screen and (max-width:425px){
+    .jak-dzialamy-arrow{transform: rotate(90deg);
+                        left: 50%;
+                        right: 50%;
+                        top: -20%}
+    .arrows-side{
+                 bottom: -1px;
+                 left: 49%;
+                 right: 49%;
+                 top: unset;
+                 transform: scaleY(-1);
+                 }
+    .biggerLogoCont{
+		font-size: 2rem!important;
+    	top: 32%;
+	}
+}
+
+/*Wordpress*/
+.wpcf7 {
+    text-align: left;
+}
+.wpcf7-form-control {
+    width: 100%;
+    padding: 5px;
+}
+.wpcf7-textarea {
+    height: 98px;
+}
+.wpcf7-submit {
+    border: 2px solid #5b4429;
+    font-weight: 700;
+    background: #5b4429;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+}
